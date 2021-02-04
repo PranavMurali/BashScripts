@@ -1,1 +1,1 @@
-echo "Hello World!"  #Printing "Hello Wolrd!" into the terminal as Output
+echo "Hello World!"  #Printing "Hello World!" into the terminal as Output
