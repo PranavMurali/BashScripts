@@ -1,2 +1,2 @@
 clear
-echo "Hello World!"
+echo "Hello World!"  #Printing "Hello Wolrd!" into the terminal as Output
