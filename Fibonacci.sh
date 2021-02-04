@@ -1,3 +1,4 @@
+echo "Enter the Number of Fibonacci series values needed : "
 read N # Input number N is read from User.
 a=0 # Start of series
 b=1 # second number of series
