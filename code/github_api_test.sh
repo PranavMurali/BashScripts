@@ -1,6 +1,6 @@
 #!/bin/bash
 url="https://api.github.com/"
-token="b73ca6bb6194ed017857ae84a55d8cb2649c5b60"
+token=""
 
 names=()
 sizes=()
