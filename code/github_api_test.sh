@@ -1,6 +1,6 @@
 #!/bin/bash
 url="https://api.github.com/"
-token="b73ca6bb6194ed017857ae84a55d8cb2649c5b60"
+token=""
 
 names=()
 sizes=()
@@ -11,3 +11,10 @@ for ((i=0; i<=${upperlim}; i++)); do
     names+=($name)
     sizes+=($size)
 done
+
+for ((i=0; i<${#names[@]}; i++))
+do
+  echo "${names[$i]}" "${sizes[$i]}"
+done > da
+
+gnuplot -p -e 'plot "da" with yerrorbars'
