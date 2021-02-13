@@ -7,6 +7,6 @@
 ![File Manage](../main/readme/filemanage.png) 
  ### Fibonacci series
 ![Fibonacci](../main/readme/fibonacci.png) 
- ### github API fun
+ ### Github API fun
 ![Github](../main/readme/githubtest1.png) 
  
